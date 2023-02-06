@@ -17,9 +17,8 @@ class TempClassStore{
 
     TempClassStore();
 
+    //New maps to allow for MuliLAPPDs <LAPPD_ID, value>
     map<int,queue<PsecData>> Buffer;
-
-    
 	map<int,int> Timeoutcounter;
 
     //For Fake data use

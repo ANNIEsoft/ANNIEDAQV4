@@ -118,7 +118,7 @@ bool PsecConfig::Send(zmq::socket_t* sock)
     memcpy(msg29.data(), &ResetSwitchACDC, sizeof ResetSwitchACDC);	
 
     zmq::message_t msg30(sizeof SMA);
-    memcpy(msg30.data(), &SMA, sizeof SMA);	   
+    memcpy(msg30.data(), &SMA, sizeof SMA);
 
     sock->send(msg0,ZMQ_SNDMORE);
     sock->send(msgID,ZMQ_SNDMORE);
@@ -255,7 +255,7 @@ bool PsecConfig::Receive(zmq::socket_t* sock)
 	
     //SMA
     sock->recv(&msg);
-    SMA=*(reinterpret_cast<int*>(msg.data()));	
+    SMA=*(reinterpret_cast<int*>(msg.data()));
 
     return true;
 }

@@ -1,6 +1,9 @@
 #Verbosity
 verbose 10
 
+#LAPPD_ID
+LAPPD_ID 0
+
 #Overall ACC/ACDC config file
 # To change
 IP 127.0.0.1

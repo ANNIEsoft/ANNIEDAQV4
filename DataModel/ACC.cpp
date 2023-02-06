@@ -511,7 +511,7 @@ int ACC::readAcdcBuffers()
 }
 */
 
-/*ID 15: Main listen fuction for data readout. Runs for 5s before retuning a negative*/
+/*ID 15: Main listen fuction for data readout. Runs for .5s before retuning a 404*/
 int ACC::listenForAcdcData(int trigMode, vector<int> LAPPD_on_ACC)
 {
 	vector<int> boardsReadyForRead;
