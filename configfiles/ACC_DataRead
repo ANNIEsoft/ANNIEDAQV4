@@ -1,0 +1,9 @@
+#Verbosity
+verbose 1
+
+#LAPPD_ID
+LAPPD_ID 0
+
+#LAPPD Port connections
+Port0 0
+Port1 1
