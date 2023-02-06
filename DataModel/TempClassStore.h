@@ -17,7 +17,10 @@ class TempClassStore{
 
     TempClassStore();
 
-    queue<PsecData> Buffer;
+    map<int,queue<PsecData>> Buffer;
+
+    
+	map<int,int> Timeoutcounter;
 
     //For Fake data use
     map<int,vector<unsigned short>> ReadFileData;

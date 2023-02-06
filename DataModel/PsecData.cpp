@@ -2,14 +2,14 @@
 
 PsecData::PsecData()
 {
-	VersionNumber = 0x0003;
+	VersionNumber = 0x0004;
 	LAPPD_ID = 0;
     SetDefaults();
 }
 
 PsecData::PsecData(unsigned int id)
 {
-	VersionNumber = 0x0003;
+	VersionNumber = 0x0004;
 	LAPPD_ID = id;
     SetDefaults();
 }
